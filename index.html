@@ -18,6 +18,13 @@
             margin: 0;
             color: #0066cc;
         }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* This will make the image circular */
+            object-fit: cover; /* Ensures the image fits well within the circular frame */
+            margin-bottom: 10px; /* Adds a little space below the image */
+        }
         section {
             margin-bottom: 20px;
         }
@@ -46,11 +53,13 @@
 </head>
 <body>
     <header>
+        <!-- Add the image here -->
+        <img src="mas_pic.jpg" alt="Mohammed Abdu" class="profile-pic" />
         <h1>Mohammed Abdu Saeed Mohammed</h1>
         <div class="contact-info">
             <p>Email: <a href="mailto:modabdu@gmail.com">modabdu@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/modabdu" target="_blank">linkedin.com/in/modabdu</a></p>
-			<p>Website: <a href="https://modabdu.github.io" target="_blank">modabdu.github.io</a></p>
+            <p>Website: <a href="https://modabdu.github.io" target="_blank">modabdu.github.io</a></p>
             <p>Mobile: +966509260363</p>
         </div>
     </header>
@@ -63,12 +72,12 @@
     <section class="skills">
         <h2>Skills</h2>
         <ul>
-            <li><strong>•	Platforms:</strong> Windows Server, Azure, VMware ESXi, Proxmox VE, Linux (in progress), AWS (in progress)</li>
-            <li><strong>•	Networking:</strong> TCP/IP, DNS, DHCP, VPN, Routing, VLAN, Cisco CCNA</li>
-            <li><strong>•	DevOps & Automation:</strong> Bash, Shell, Python (basic), Docker, Kubernetes, CI/CD, Terraform</li>
-            <li><strong>•	Data Management:</strong> Microsoft SQL Server, SQL (learning), RAID, Veeam, Acronis</li>
-            <li><strong>•	Tools:</strong> Jira, Remote Desktop, Active Directory, System logs, Git (learning)</li>
-            <li><strong>•	Fleet & Biometric Systems:</strong> Ruptela, Navtelecom, Diebold Nixdorf, FingerTec</li>
+            <li><strong>• Platforms:</strong> Windows Server, Azure, VMware ESXi, Proxmox VE, Linux (in progress), AWS (in progress)</li>
+            <li><strong>• Networking:</strong> TCP/IP, DNS, DHCP, VPN, Routing, VLAN, Cisco CCNA</li>
+            <li><strong>• DevOps & Automation:</strong> Bash, Shell, Python (basic), Docker, Kubernetes, CI/CD, Terraform</li>
+            <li><strong>• Data Management:</strong> Microsoft SQL Server, SQL (learning), RAID, Veeam, Acronis</li>
+            <li><strong>• Tools:</strong> Jira, Remote Desktop, Active Directory, System logs, Git (learning)</li>
+            <li><strong>• Fleet & Biometric Systems:</strong> Ruptela, Navtelecom, Diebold Nixdorf, FingerTec</li>
         </ul>
     </section>
 
@@ -77,41 +86,40 @@
         <ul>
             <li><strong>System Engineer</strong> - Diyar United Company (Jan 2023 - Present)</li>
                 <ul>
-                    <li>•	Installed and managed Swiftec Fueling System and Diebold Nixdorf software at fuel station sites.</li>
-                    <li>•	Set up and maintained Windows Server and Azure cloud systems for different projects.</li>
-                    <li>•	Deployed web applications and APIs in Azure and made sure they worked smoothly.</li>
-                    <li>•	Used VMware ESXi to create and manage virtual machines.</li>
-                    <li>•	Fixed hardware and software issues for desktops, laptops, and other devices.</li>
-					<li>•	Handled system backups using Veeam and Acronis to prevent data loss.</li>
-                    <li>•	Worked with SQL Server and RAID storage to manage business data.</li>
-                    <li>•	Used Jira to track support tickets and solve technical problems quickly.</li>
-
-                </ul>			
+                    <li>• Installed and managed Swiftec Fueling System and Diebold Nixdorf software at fuel station sites.</li>
+                    <li>• Set up and maintained Windows Server and Azure cloud systems for different projects.</li>
+                    <li>• Deployed web applications and APIs in Azure and made sure they worked smoothly.</li>
+                    <li>• Used VMware ESXi to create and manage virtual machines.</li>
+                    <li>• Fixed hardware and software issues for desktops, laptops, and other devices.</li>
+                    <li>• Handled system backups using Veeam and Acronis to prevent data loss.</li>
+                    <li>• Worked with SQL Server and RAID storage to manage business data.</li>
+                    <li>• Used Jira to track support tickets and solve technical problems quickly.</li>
+                </ul>            
             <li><strong>IT Administrator – Fleet Tracking Systems</strong> - Gulf Axis Contracting (Jan 2013 - July 2021)</li>
                 <ul>
-                    <li>•	Led a small IT team supporting GPS tracking systems for company vehicles</li>
-                    <li>•	Set up, tested, and repaired tracking devices and system software.</li>
-                    <li>•	Helped developers connect tracking systems with company software.</li>
-                    <li>•	Fixed system issues quickly to reduce downtime for drivers and dispatchers.</li>
-                    <li>•	Managed IT support tickets and made sure they were solved on time.</li>
-					<li>•	Installed operating systems and updated software regularly to keep systems secure.</li>
-                </ul>			
-            <li><strong>Technical Support Specialist</strong> - ITQAN International Co (Mar 2010 - Dec 2011)
+                    <li>• Led a small IT team supporting GPS tracking systems for company vehicles.</li>
+                    <li>• Set up, tested, and repaired tracking devices and system software.</li>
+                    <li>• Helped developers connect tracking systems with company software.</li>
+                    <li>• Fixed system issues quickly to reduce downtime for drivers and dispatchers.</li>
+                    <li>• Managed IT support tickets and made sure they were solved on time.</li>
+                    <li>• Installed operating systems and updated software regularly to keep systems secure.</li>
+                </ul>            
+            <li><strong>Technical Support Specialist</strong> - ITQAN International Co (Mar 2010 - Dec 2011)</li>
                 <ul>
-                    <li>•	Helped users fix computer and software issues in-person and remotely.</li>
-                    <li>•	Found and solved problems that made systems slow or unstable.</li>
-                    <li>•	Followed up with users to make sure their problems were solved.</li>
-                    <li>•	Explained technical issues in simple terms to non-technical staff.</li>
-                    <li>•	Wrote basic support instructions and shared them with the team.</li>
+                    <li>• Helped users fix computer and software issues in-person and remotely.</li>
+                    <li>• Found and solved problems that made systems slow or unstable.</li>
+                    <li>• Followed up with users to make sure their problems were solved.</li>
+                    <li>• Explained technical issues in simple terms to non-technical staff.</li>
+                    <li>• Wrote basic support instructions and shared them with the team.</li>
                 </ul>
             </li>
-            <li><strong>Help Desk Technician</strong> - Saba Islamic Bank (Feb 2008 - Dec 2009)
+            <li><strong>Help Desk Technician</strong> - Saba Islamic Bank (Feb 2008 - Dec 2009)</li>
                 <ul>
-                    <li>•	Set up computers, printers, and software for new employees.</li>
-                    <li>•	Provided daily IT support to staff in different departments.</li>
-                    <li>•	Logged all support requests and noted how issues were solved.</li>
-                    <li>•	Applied updates to fix bugs and protect against security issues.</li>
-                    <li>•	Worked with vendors to fix or replace broken equipment.</li>
+                    <li>• Set up computers, printers, and software for new employees.</li>
+                    <li>• Provided daily IT support to staff in different departments.</li>
+                    <li>• Logged all support requests and noted how issues were solved.</li>
+                    <li>• Applied updates to fix bugs and protect against security issues.</li>
+                    <li>• Worked with vendors to fix or replace broken equipment.</li>
                 </ul>
             </li>
         </ul>
@@ -141,7 +149,7 @@
     <section class="portfolio">
         <h2>Website, Portfolio, and Profiles</h2>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/modabdu" target="_blank">linkedin.com/in/modabdu</a></p>
-		<p>Website: <a href="https://modabdu.github.io" target="_blank">modabdu.github.io</a></p>
+        <p>Website: <a href="https://modabdu.github.io" target="_blank">modabdu.github.io</a></p>
     </section>
 
     <section class="references">
